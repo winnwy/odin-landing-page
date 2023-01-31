@@ -1,0 +1,104 @@
+body {
+    font-family: 'roboto', sans-serif, serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header, .intro-container {
+    background-color: #1f2937;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro-left .white-head {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.intro-left .white-content {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.btn-sign-up {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border-color: #f9faf8;
+    border-style: none;
+}
+
+.intro-right {
+    width: 300px;
+    height: auto;
+    transform: rotate(270deg);
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.item .icon {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+}
+
+.item .content {
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .content {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.bold-origin {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ad-container {
+    background-color: #3882f6;
+}
+
+.ad-container .strong-content {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.ad-container .content {
+    color: #f9faf8
+}
+
+.ad-container .btn-sign-up {
+    border-width: 2px;
+    border-style: solid;
+}
+
+
