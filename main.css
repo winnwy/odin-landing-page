@@ -1,5 +1,15 @@
 body {
     font-family: 'roboto', sans-serif, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
 .header-logo {
@@ -7,7 +17,7 @@ body {
     color: #f9faf8;
 }
 
-.header, .intro-container {
+.header, .intro-container, .footer {
     background-color: #1f2937;
 }
 
@@ -17,6 +27,24 @@ body {
     list-style: none;
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
 }
 
 .intro-left .white-head {
@@ -44,6 +72,7 @@ body {
     width: 300px;
     height: auto;
     transform: rotate(270deg);
+    align-self: flex-start;
 }
 
 .info-head {
@@ -78,7 +107,7 @@ body {
 }
 
 .bold-origin {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -99,6 +128,10 @@ body {
 .ad-container .btn-sign-up {
     border-width: 2px;
     border-style: solid;
+}
+
+.footer {
+    color: #f9faf8;
 }
 
 
