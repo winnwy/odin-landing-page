@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
+
 body {
     font-family: 'roboto', sans-serif, serif;
     display: flex;
@@ -9,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
 }
 
 .header-logo {
@@ -39,6 +48,8 @@ body {
 .intro-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .intro-left {
@@ -66,19 +77,21 @@ body {
     border-radius: 6px;
     border-color: #f9faf8;
     border-style: none;
+    max-width: 100px;
+    margin-top: 10px;
 }
 
 .intro-right {
-    width: 300px;
+    max-width: 30vw;
     height: auto;
     transform: rotate(270deg);
-    align-self: flex-start;
 }
 
 .info-head {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    text-align: center;
 }
 
 .item .icon {
@@ -88,15 +101,31 @@ body {
     border-style: solid;
     border-width: 3px;
     border-color: #3882f6;
+    
 }
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 20px 0px 20px 0px;
+}
+
 
 .item .content {
     color: #1f2937;
     font-size: 18px;
+    text-align: center;
+}
+
+.info-container {
+    padding: 20px 0px 60px 0px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    padding: 60px 0px 60px 0px;
 }
 
 .quote .content {
@@ -104,21 +133,35 @@ body {
     font-weight: 300;
     color: #1f2937;
     font-style: italic;
+    padding: 40px;
 }
 
 .bold-origin {
     font-size: 20px;
+    text-align: right;
     font-weight: bold;
 }
 
 .ad-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.ad {
+    display: flex;
+    justify-content: space-around;
     background-color: #3882f6;
+    text-align: center;
+    padding: 20px;
+    flex-basis: 600px;
 }
 
 .ad-container .strong-content {
     font-size: 30px;
     font-weight: bold;
     color: #f9faf8;
+    padding: 20px;
 }
 
 .ad-container .content {
@@ -128,10 +171,15 @@ body {
 .ad-container .btn-sign-up {
     border-width: 2px;
     border-style: solid;
+    flex-basis: 100px;
+    align-self: center;
+    margin-top: 0;
 }
 
 .footer {
+    text-align: center;
     color: #f9faf8;
+    padding: 20px;
 }
 
 
